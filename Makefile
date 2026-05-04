@@ -1,6 +1,6 @@
 .PHONY: build install clean
 
-PLUGINS := kubectl-restart_history kubectl-images kubectl-drift kubectl-shell
+PLUGINS := kubectl-restart_history kubectl-images kubectl-drift kubectl-shell kubectl-clean
 
 GOOS   := linux
 GOARCH := amd64
